@@ -14,6 +14,7 @@ mode        : standalone # {standalone, draft}
 library(slidify)
 setwd("~/juicy/BioStatWork2012/mytex/journalClub/pvaluesCI/pvalsCIslide")
 slidify("index.Rmd")
+publish(user="annlia", repo="pValuesCIs")
 -->
 
 <style>
