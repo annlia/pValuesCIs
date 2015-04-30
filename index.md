@@ -10,6 +10,12 @@ widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
 mode        : standalone # {standalone, draft}
 ---
 
+<!--
+library(slidify)
+setwd("~/juicy/BioStatWork2012/mytex/journalClub/pvaluesCI/pvalsCIslide")
+slidify("index.Rmd")
+-->
+
 <style>
 em {
   font-style: italic;
@@ -162,7 +168,7 @@ _Percentage of participants in each group who endorsed at least one of the 6 sta
 
 <br>
 
-<img src="assets/img/psychoPerformance.png" height="400px" />
+<img src="assets/img/psychoPerformance.jpg" height="400px" />
 
 ---
 
@@ -176,7 +182,7 @@ _Percentage of false answers in the three groups._
 
 <br>
 
-<img src="assets/img/falseAnswers.png" height="450px" />
+<img src="assets/img/falseAnswers.jpg" height="450px" />
 
 ---
 
@@ -332,7 +338,7 @@ $$P_{\theta_g} (\mbox{BF}_{10}(x) > \gamma) \geq P_{\theta_g} (\mbox{BF}_{1'0}(x
 
 <table>
 <tr>
-  <td> &nbsp; <img src="assets/img/pValuesBayesFactors.png" height="500px" /></td>
+  <td> &nbsp; <img src="assets/img/pValuesBayesFactors.jpg" height="500px" /></td>
     <td>&nbsp;</td>
    <td>
   <li>Common thresholds correspond to only moderate evidence against the null </li>
@@ -354,11 +360,11 @@ $$P_{\theta_g} (\mbox{BF}_{10}(x) > \gamma) \geq P_{\theta_g} (\mbox{BF}_{1'0}(x
 <table>
 <tr>
 <td>
-<img src="assets/img/Bumbledorf.png" width="400px" /></td>
+<img src="assets/img/Bumbledorf.jpg" width="400px" /></td>
 <td>
 <br>
 <br>
-<img src="assets/img/questConfidenceIntervals.png" width="600px" /> </td>
+<img src="assets/img/questConfidenceIntervals.jpg" width="600px" /> </td>
 </tr>
 </table>
 
