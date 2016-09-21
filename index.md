@@ -8,6 +8,7 @@ highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
 mode        : standalone # {standalone, draft}
+lib_cdn: "https://cdn.rawgit.com/ramnathv/slidifyLibraries/master/inst/libraries"
 ---
 
 <!--
@@ -15,6 +16,7 @@ library(slidify)
 setwd("~/juicy/BioStatWork2012/mytex/journalClub/pvaluesCI/pvalsCIslide")
 slidify("index.Rmd")
 publish(user="annlia", repo="pValuesCIs")
+http://annlia.github.com/pValuesCIs
 -->
 
 <style>
